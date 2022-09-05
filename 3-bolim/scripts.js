@@ -234,20 +234,20 @@
 
 //42-dars 
 
-const jonasArray = [
-    'azamat',
-    'Narzulloyev',
-    2020-1996,
-    'teacher',
-    ['Hasan', 'Azizbek','Ali']
-];
+// const jonasArray = [
+//     'azamat',
+//     'Narzulloyev',
+//     2020-1996,
+//     'teacher',
+//     ['Hasan', 'Azizbek','Ali']
+// ];
 
-const jones  = {
-    firtname : 'Asilbek',
-    Lasname: 'Narzulloyev',
-    age: 2003,
-    friends : ['Hasan', 'Azizbek','Ali']
-}
+// const jones  = {
+//     firtname : 'Asilbek',
+//     Lasname: 'Narzulloyev',
+//     age: 2003,
+//     friends : ['Hasan', 'Azizbek','Ali']
+// }
 
 
 
@@ -257,9 +257,9 @@ const jones  = {
 
 // console.log(jones.Lasname)
 // console.log(jones['friends'])
-const nameKey = 'Name';
-console.log(jones['first'+ nameKey])
-console.log(jones['last'+ nameKey])
+// const nameKey = 'Name';
+// console.log(jones['first'+ nameKey])
+// console.log(jones['last'+ nameKey])
 
 
 // const interested = prompt('What do you want to ');
@@ -272,7 +272,262 @@ console.log(jones['last'+ nameKey])
 //     console.log('wrong request! ')
 // }
 
-jones.location = 'uzbekistan';
-jones['twitter'] = 'azamat1796';
-console.log(jones)
+// jones.location = 'uzbekistan';
+// jones['twitter'] = 'azamat1796';
+// console.log(jones)
+
+
+//44-dars
+
+// const jones  = {
+//     firtname : 'Asilbek',
+//     Lasname: 'Narzulloyev',
+//     jop: 'programmer',
+//     birthyear: 1996,
+//     friends : ['Hasan', 'Azizbek','Ali'],
+//     hasDriver: true,
+
+//     // calcAge : function(birthyear) {
+//     //     return 2022-birthyear
+//     // }
+
+
+
+//     // calcAge : function() {
+//     //     console.log(this.Lasname)
+//     //     return 2022-this.birthyear
+//     // }
+
+
+//     calcAge : function() {
+//         console.log(this)
+//        this.age = 2022-this.birthyear
+//        return this.age
+//     },
+
+//     getSummary: function() {
+//         return `${this.firtname} is a ${this.calcAge()}`
+//     }
+
+
+// }
+
+// // console.log(jones.calcAge())
+// // console.log(jones.age)
+
+// console.log(jones.getSummary())
+
+
+//45-dars 
+
+
+
+// const mark = {
+//     fullName: 'Azamat narzulloyev',
+//     mass: 65,
+//     height: 1.69,
+//     calcBMI: function() { 
+//         this.bmi=this.mass/this.height**2
+//         return this.bmi
+//     }
+// };
+
+// const john = {
+//     fullname: 'Jon Smith',
+//     mass: 92,
+//     height:1.76,
+// };
+// mark.calcBMI();
+// console.log(mark.bmi)
+
+
+
+//46-dars 
+
+//for loops keeps running while condition is true
+
+
+// for(let rep=1; rep<=10; rep+=1)
+// console.log(`for loops keeps running ${rep}`)
+
+
+
+// for (n=1; n<15; n+=2){
+//     console.log(`foor loops ${n}`)
+// }
+
+
+// 47-dars 
+ 
+// const jonasArray = [
+//     'Jonas',
+//     'Peter',
+//     'Salim',
+//      1996,
+//      'hasan',
+//     '1996 - 1995',
+//     'programmer',
+//     ['mark','jones','superberk']
+// ]
+
+// for (n=0; n<jonasArray.length; n+=1) {
+//     if (jonasArray[n].length>0) {
+//         console.log(jonasArray[n])
+//     }
+//     else {
+//         for (m=0; m<jonasArray[n].length; m+=1) {
+//             console.log(jonasArray[m])
+//         }
+//     }
+// }
+
+
+// const types = []
+// for (let i=0; i<jonasArray.length ; i++) {
+//     console.log(jonasArray[i], typeof jonasArray[i])
+
+
+
+//     types.push(typeof jonasArray[i])
+// };
+// console.log(types)
+
+
+
+// const years = [1991,2001, 2007,1995, 1993]
+
+// const ages =[]
+
+// for (let i=0; i<years.length; i++) {
+//     ages.push(2037-years[i]);
+
+// }
+
+// for (let i=0; i<jonasArray.length; i++) {
+//     if (typeof jonasArray[i] !=='string') continue;
+//     console.log(jonasArray[i], typeof jonasArray[i])
+// }
+
+
+
+
+// for (let i=0; i<jonasArray.length; i++) {
+//     if (typeof jonasArray[i] !=='string') break;
+//     console.log(jonasArray[i], typeof jonasArray[i])
+// }
+
+// console.log("break agar dasturga shart bajarilmasa chiqadi ")
+
+
+
+// 48-dars 
+
+
+// const jonasArray = [
+//     'Jonas',
+//     'Peter',
+//     'Salim',
+//      1996,
+//      'hasan',
+//     '1996 - 1995',
+//     'programmer',
+//     ['mark','jones','superberk']
+// ]
+
+// for (let i=jonasArray.length-1; i>=0; i-=1) {
+//     console.log(jonasArray[i])
+// }
+
+// for (let exercise=1; exercise<4; exercise+=1) {
+//     console.log(`starting exercises ${exercise}`)
+
+
+//     for (let rep=1; rep<6; rep+=1) {
+//         console.log(`Lifting weight repetition ${rep}`)
+//     }
+// }
+
+
+//49-dars 
+
+
+
+// for(let rep=1; rep<=10; rep+=1) {
+//     console.log(`Lifting weights repetition ${rep}`)
+// }
+
+
+
+
+// rep=1;
+// while (rep<=10) {
+//     console.log(`Lifting weights repetition ${rep}`);
+//     rep++;
+// }
+
+// let dice = Math.trunc(Math.random()*6)+1
+// console.log(dice);
+
+
+
+// 50-dars 
+
+
+const calcTip = function(bill) {
+    return bill >=50 && bill <=300 ? bill*0.15: bill*2
+}
+const bills = [20,55,44,33 , 222, 33, 44, 555,5555]
+
+
+// for (let i=0; i<bills.length; i+=1) {
+//     console.log(calcTip(bills[i]))
+// }
+
+
+const tips = []
+const totals = [] 
+for (let i=0; i< bills.length; i+=1) {
+   const  tip = calcTip(bills[i]);
+   tips.push(tip)
+   totals.push(tip+bills[i])
+}
+console.log(tips)
+console.log(totals)
+
+const calcAverage = function(arr) {
+    let sum = 0;
+    for(let i=0; i<arr.length; i+=1) {
+        // sum = sum+arr[i]
+        sum += arr[i] ;
+    }
+    // console.log(sum);
+    return sum;
+}
+
+
+
+console.log(calcAverage([2, 4, 6])) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
